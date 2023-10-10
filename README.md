@@ -2,8 +2,11 @@
   <h1>Git aliases</h1>
   <p>Streamline Git Operations with Time-Saving Aliases</p>
   
-  <a href="."><img class="rounded" src="./assets/terminal-demo.gif"></a>
+  ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-blue.svg)
+  
+  <a href="."> ![Git aliases](./terminal-demo.gif) </a>
 </div>
+
 
 English | [Español](./README-ES.md)
 

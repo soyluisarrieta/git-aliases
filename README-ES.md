@@ -2,7 +2,10 @@
   <h1>Alias para Git</h1>
   <p>Optimice las operaciones de Git con alias que ahorran tiempo</p>
   
-  <a href="."><img class="rounded" src="./assets/terminal-demo.gif"></a>
+  ![Contribuciones Bienvenidas](https://img.shields.io/badge/Contribuciones-bienvenidas-blue.svg)
+  
+  
+  <a href="."> ![Alias para git](./terminal-demo.gif) </a>
 </div>
 
 [English](./README.md) | Español
