@@ -1,57 +1,57 @@
-<h1>Recursos de Git y Github</h1>
+<h1>Streamline Git Operations with Time-Saving Aliases</h1>
 
-<h2>Indice</h2>
+<h2>Table of Contents</h2>
 
-- [Alias o atajos](#alias-o-atajos)
-  - [Cómo crear un Alias global utilizando Git Bash](#cómo-crear-un-alias-global-utilizando-git-bash)
-  - [Configuraciones recomendadas (por Midudev)](#configuraciones-recomendadas-por-midudev)
-  - [Añadir todos los alias recomendados](#añadir-todos-los-alias-recomendados)
+- [Aliases or Shortcuts](#aliases-or-shortcuts)
+  - [How to Create a Global Alias Using Git Bash](#how-to-create-a-global-alias-using-git-bash)
+  - [Recommended Configurations (by Midudev)](#recommended-configurations-by-midudev)
+  - [Add All Recommended Aliases](#add-all-recommended-aliases)
 
-## Alias o atajos
+## Aliases or Shortcuts
 
-### Cómo crear un Alias global utilizando Git Bash
+### How to Create a Global Alias Using Git Bash
 
-1. Abre una terminal de **Git Bash** y asegúrate de estar en la ubicación de tu usuario usando el siguiente comando:
+1. Open a **Git Bash** terminal and make sure you're in your user's location using the following command:
     ```bash
     cd ~
     ```
   
-2. Ejecuta el siguiente comando para crear o configurar tu perfil:
+2. Run the following command to create or configure your profile:
     ```bash
     notepad .bash_profile
     ```
-    Si aún no has creado este archivo, recibirás una solicitud para crear uno nuevo; **confirma y continúa**.
+    If you haven't created this file yet, you'll be prompted to create a new one; **confirm and proceed**.
 
-3. Dentro del archivo .bash_profile, puedes agregar tu primer alias. Por ejemplo:
+3. Inside the .bash_profile file, you can add your first alias. For example:
     ```bash
     alias g='git'
     ```
-    Cuando guardes los cambios, esto establecerá un alias global "g" para el comando "git".
+    When you save the changes, this will set a global alias "g" for the "git" command.
 
-4. Ahora puedes utilizar este alias en cualquier proyecto Git en tu sistema. Por ejemplo, en lugar de escribir `git -v`, simplemente escribe:
+4. Now you can use this alias in any Git project on your system. For example, instead of typing `git -v`, simply type:
     ```bash
-   g -v
+    g -v
     ```
 
-5. Si olvidas alguno de tus alias, puedes ver la **lista completa** ejecutando el siguiente comando:
+5. If you forget any of your aliases, you can view the **complete list** by running the following command:
     ```bash
     alias
     ```
 
-> **Nota:** Estos pasos no son aplicables a terminales como CMD o PowerShell, ya que las configuraciones son específicas de Git Bash y no se reflejarán en otras terminales. Cada entorno de terminal tiene sus propias configuraciones independientes.
+> **Note:** These steps are not applicable to terminals like CMD or PowerShell since the configurations are specific to Git Bash and won't reflect in other terminals. Each terminal environment has its independent configurations.
 
-### Configuraciones recomendadas (por [Midudev](https://github.com/midudev))
+### Recommended Configurations (by [Midudev](https://github.com/midudev))
 
 <details>
-<summary>Atajo para el comando git:</summary>
+<summary>Shortcut for the git command:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias g='git'
     ```
 
-- Uso:
+- Usage:
 
     ```
     g
@@ -59,15 +59,15 @@
 </details>
 
 <details>
-<summary>Agrega todos los cambios al área de preparación:</summary>
+<summary>Add all changes to the staging area:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gaa='git add -A'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gaa
@@ -75,15 +75,15 @@
 </details>
 
 <details>
-<summary>Muestra el estado actual del repositorio:</summary>
+<summary>Show the current repository status:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gst='git status'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gst
@@ -91,15 +91,15 @@
 </details>
 
 <details>
-<summary>Realiza una operación pull desde el repositorio remoto:</summary>
+<summary>Perform a pull operation from the remote repository:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gl='git pull'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gl
@@ -107,15 +107,15 @@
 </details>
 
 <details>
-<summary>Actualiza el repositorio local usando fetch y rebase:</summary>
+<summary>Update the local repository using fetch and rebase:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gup='git fetch && git rebase'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gup
@@ -123,15 +123,15 @@
 </details>
 
 <details>
-<summary>Sube los cambios al repositorio remoto:</summary>
+<summary>Push changes to the remote repository:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gp='git push'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gp
@@ -139,17 +139,17 @@
 </details>
 
 <details>
-<summary>Muestra diferencias con formato mejorado:</summary>
+<summary>Show differences with enhanced formatting:</summary>
 
-El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-so-fancy):
+The following alias requires [diff-so-fancy](https://www.npmjs.com/package/diff-so-fancy):
 
-- Configuración:
+- Configuration:
 
     ```bash
     gd() { git diff -w "$@" | diff-so-fancy - }
     ```
 
-- Uso:
+- Usage:
 
     ```
     gd
@@ -157,31 +157,31 @@ El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-s
 </details>
 
 <details>
-<summary>Realiza un commit con un mensaje:</summary>
+<summary>Commit with a message:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gc='git commit -m'
     ```
 
-- Uso:
+- Usage:
 
     ```
-    gc "Mensaje del commit"
+    gc "Commit message"
     ```
 </details>
 
 <details>
-<summary>Realiza un commit con mensaje y cambios adicionales:</summary>
+<summary>Commit with a message and additional changes:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gca='git commit -v -a'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gca
@@ -189,31 +189,31 @@ El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-s
 </details>
 
 <details>
-<summary>Realiza una operación de checkout:</summary>
+<summary>Perform a checkout operation:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gco='git checkout'
     ```
 
-- Uso:
+- Usage:
 
     ```
-    gco <nombre_de_la_rama_o_commit>
+    gco <branch_name_or_commit>
     ```
 </details>
 
 <details>
-<summary>Cambia al branch "master":</summary>
+<summary>Switch to the "master" branch:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gcm='git checkout master'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gcm
@@ -221,15 +221,15 @@ El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-s
 </details>
 
 <details>
-<summary>Lista las ramas locales:</summary>
+<summary>List local branches:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gb='git branch'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gb
@@ -237,15 +237,15 @@ El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-s
 </details>
 
 <details>
-<summary>Lista todas las ramas, incluyendo las remotas:</summary>
+<summary>List all branches, including remote ones:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gba='git branch -a'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gba
@@ -253,15 +253,15 @@ El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-s
 </details>
 
 <details>
-<summary>Muestra el conteo de commits por autor:</summary>
+<summary>Show commit count per author:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gcount='git shortlog -sn'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gcount
@@ -269,31 +269,31 @@ El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-s
 </details>
 
 <details>
-<summary>Realiza cherry-pick de un commit específico:</summary>
+<summary>Cherry-pick a specific commit:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gcp='git cherry-pick'
     ```
 
-- Uso:
+- Usage:
 
     ```
-    gcp <hash_del_commit>
+    gcp <commit_hash>
     ```
 </details>
 
 <details>
-<summary>Muestra el registro de commits con estadísticas:</summary>
+<summary>Show commit log with statistics:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias glg='git log --stat --max-count=5'
     ```
 
-- Uso:
+- Usage:
 
     ```
     glg
@@ -301,15 +301,15 @@ El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-s
 </details>
 
 <details>
-<summary>Muestra el registro de commits en forma de gráfico:</summary>
+<summary>Show commit log as a graph:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias glgg='git log --graph --max-count=5'
     ```
 
-- Uso:
+- Usage:
 
     ```
     glgg
@@ -317,15 +317,15 @@ El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-s
 </details>
 
 <details>
-<summary>Muestra el estado actual de manera resumida:</summary>
+<summary>Show the current status in a summarized form:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gss='git status -s'
     ```
 
-- Uso:
+- Usage:
 
     ```
     gss
@@ -333,86 +333,86 @@ El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-s
 </details>
 
 <details>
-<summary>Agrega cambios al área de preparación:</summary>
+<summary>Add changes to the staging area:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias ga='git add'
     ```
 
-- Uso:
+- Usage:
 
     ```
-    ga <nombre_del_archivo_o_directorio>
+    ga <file_or_directory_name>
     ```
 </details>
 
 <details>
-<summary>Realiza una operación de merge:</summary>
+<summary>Perform a merge operation:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gm='git merge'
     ```
 
-- Uso:
+- Usage:
 
     ```
-    gm <nombre_de_la_rama_a_mergear>
+    gm <branch_name_to_merge>
     ```
 </details>
 
 <details>
-<summary>Deshace los cambios en el área de preparación:</summary>
+<summary>Undo changes in the staging area:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias grh='git reset HEAD'
     ```
 
-- Uso:
+- Usage:
 
     ```
-    grh <nombre_del_archivo_o_directorio>
+    grh <file_or_directory_name>
     ```
 </details>
 
 <details>
-<summary>Deshace los cambios en el área de preparación de manera forzada:</summary>
+<summary>Forcefully undo changes in the staging area:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias grhh='git reset HEAD --hard'
     ```
 
-- Uso:
+- Usage:
 
     ```
-    grhh <nombre_del_archivo_o_directorio>
+    grhh <file_or_directory_name>
     ```
 </details>
 
 <details>
-<summary>Crea una nueva rama y cambia a ella:</summary>
+<summary>Create a new branch and switch to it:</summary>
 
-- Configuración:
+- Configuration:
 
     ```bash
     alias gcb="git switch -c \$1"
     ```
 
-- Uso:
+- Usage:
 
     ```
-    gcb <nombre_de_la_nueva_rama>
+    gcb <new_branch_name>
     ```
 </details>
 
-### Añadir todos los alias recomendados
+### Add All Recommended Aliases
 
 ```bash
 alias g='git'
@@ -439,7 +439,7 @@ alias grhh='git reset HEAD --hard'
 alias gcb="git switch -c $1"
 ```
 
-El siguiente alias requiere [diff-so-fancy](https://www.npmjs.com/package/diff-so-fancy):
+The following alias requires [diff-so-fancy](https://www.npmjs.com/package/diff-so-fancy):
 ```bash
 gd() { git diff -w "$@" | diff-so-fancy - }
 ```
