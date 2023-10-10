@@ -1,6 +1,8 @@
 <div align="center">
   <h1>Git aliases</h1>
   <p>Streamline Git Operations with Time-Saving Aliases</p>
+  
+  <a href="."><img class="rounded" src="./assets/terminal-demo.gif"></a>
 </div>
 
 <h2>Table of contents</h2>
