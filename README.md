@@ -5,6 +5,8 @@
   <a href="."><img class="rounded" src="./assets/terminal-demo.gif"></a>
 </div>
 
+English | [Español](./README-ES.md)
+
 <h2>Table of contents</h2>
 
 - [How to create a global alias using Git Bash](#how-to-create-a-global-alias-using-git-bash)
