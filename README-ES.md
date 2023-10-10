@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Alias Git</h1>
+  <h1>Alias para Git</h1>
   <p>Optimice las operaciones de Git con alias que ahorran tiempo</p>
   
   <a href="."><img class="rounded" src="./assets/terminal-demo.gif"></a>
