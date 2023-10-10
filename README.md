@@ -1,15 +1,15 @@
-<h1>Streamline Git Operations with Time-Saving Aliases</h1>
+<div align="center">
+  <h1>Git aliases</h1>
+  <p>Streamline Git Operations with Time-Saving Aliases</p>
+</div>
 
-<h2>Table of Contents</h2>
+<h2>Table of contents</h2>
 
-- [Aliases or Shortcuts](#aliases-or-shortcuts)
-  - [How to Create a Global Alias Using Git Bash](#how-to-create-a-global-alias-using-git-bash)
-  - [Recommended Configurations (by Midudev)](#recommended-configurations-by-midudev)
-  - [Add All Recommended Aliases](#add-all-recommended-aliases)
+- [How to create a global alias using Git Bash](#how-to-create-a-global-alias-using-git-bash)
+- [Recommended configurations (by Midudev)](#recommended-configurations-by-midudev)
+- [Add all recommended aliases](#add-all-recommended-aliases)
 
-## Aliases or Shortcuts
-
-### How to Create a Global Alias Using Git Bash
+### How to create a global alias using Git Bash
 
 1. Open a **Git Bash** terminal and make sure you're in your user's location using the following command:
     ```bash
@@ -40,10 +40,10 @@
 
 > **Note:** These steps are not applicable to terminals like CMD or PowerShell since the configurations are specific to Git Bash and won't reflect in other terminals. Each terminal environment has its independent configurations.
 
-### Recommended Configurations (by [Midudev](https://github.com/midudev))
+### Recommended configurations (by [Midudev](https://github.com/midudev))
 
 <details>
-<summary>Shortcut for the git command:</summary>
+<summary>Alias for the git command:</summary>
 
 - Configuration:
 
@@ -412,7 +412,7 @@ The following alias requires [diff-so-fancy](https://www.npmjs.com/package/diff-
     ```
 </details>
 
-### Add All Recommended Aliases
+### Add all recommended aliases
 
 ```bash
 alias g='git'
