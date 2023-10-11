@@ -11,10 +11,10 @@
 
 <h2>📜 Table of contents</h2>
 
-- [✳ Create a global alias using Git Bash](#✳-create-a-global-alias-using-git-bash)
-- [✨ Recommended configurations](#✨-recommended-configurations-by-midudev)
-- [📚 Add all recommended aliases](#📚-add-all-recommended-aliases)
-- [🧩 Contributions](#🧩-contributions)
+- [✳ Create a global alias using Git Bash](#-create-a-global-alias-using-git-bash)
+- [✨ Recommended configurations](#-recommended-configurations-by-midudev)
+- [📚 Add all recommended aliases](#-add-all-recommended-aliases)
+- [🧩 Contributions](#-contributions)
 
 ### ✳ Create a global alias using Git Bash
 
