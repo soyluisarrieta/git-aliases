@@ -12,9 +12,10 @@
 
 <h2>📜 Tabla de contenidos</h2>
 
-- [Cómo crear un alias global utilizando Git Bash](#cómo-crear-un-alias-global-utilizando-git-bash)
-- [Configuraciones recomendadas (por Midudev)](#configuraciones-recomendadas-por-midudev)
-- [Añadir todos los alias recomendados](#añadir-todos-los-alias-recomendados)
+- [✳ Crear un alias global utilizando Git Bash](#✳-crear-un-alias-global-utilizando-git-bash)
+- [✨ Configuraciones recomendadas](#✨-configuraciones-recomendadas-por-midudev)
+- [📚 Añadir todos los alias recomendados](#📚-añadir-todos-los-alias-recomendados)
+- [🧩 Contribuciones](#🧩-contribuciones)
 
 ### ✳ Crear un alias global utilizando Git Bash
 
