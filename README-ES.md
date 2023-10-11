@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Alias para Git</h1>
-  <p>Optimice las operaciones de Git con alias que ahorran tiempo</p>
+  <p>Optimice las operaciones de Git con alias que ahorran tiempo.</p>
   
   ![Contribuciones Bienvenidas](https://img.shields.io/badge/Contribuciones-bienvenidas-blue.svg)
   

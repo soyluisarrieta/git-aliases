@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Git aliases</h1>
-  <p>Streamline Git Operations with Time-Saving Aliases</p>
+  <h1>Git Aliases</h1>
+  <p>Streamline Git Operations with Time-Saving Aliases.</p>
   
   ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-blue.svg)
   
