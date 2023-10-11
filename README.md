@@ -450,3 +450,7 @@ The following alias requires [diff-so-fancy](https://www.npmjs.com/package/diff-
 ```bash
 gd() { git diff -w "$@" | diff-so-fancy - }
 ```
+
+## Contributions
+
+We invite you to share your aliases in a pull request.
