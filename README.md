@@ -2,7 +2,7 @@
   <h1>Git Aliases</h1>
   <p>🔥 Streamline Git Operations with Time-Saving Aliases.</p>
   
-  <a href="https://github.com/soyluisarrieta/git-aliases/pulls"> ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-blue.svg) </a>
+  <a href="https://github.com/soyluisarrieta/git-aliases/pulls"> ![Contributions open](https://img.shields.io/badge/Contributions-open-blue.svg) </a>
   
   <a href="https://github.com/soyluisarrieta/git-aliases"> ![Git aliases](./terminal-demo.gif) </a>
 
